@@ -1,6 +1,6 @@
 
 # Load the plot list once when the app starts
-connectance_plots <- readRDS("data/network_plots.RDS")
+connectance_plots <- readRDS("data/network_plots.rds")
 
 
 connectanceUI <- function(id, n) {

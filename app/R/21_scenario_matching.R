@@ -2,10 +2,10 @@
 # R/scenario_matching.R
 
 # Load relevant data products
-tss <- readRDS("data/tss.RDS")
-extinction_edge <- readRDS("data/extinction_edge.RDS")
-post_edge <- readRDS("data/post_edge.RDS")
-pre_edge <- readRDS("data/pre_edge.RDS")
+tss <- readRDS("data/tss.rds")
+extinction_edge <- readRDS("data/extinction_edge.rds")
+post_edge <- readRDS("data/post_edge.rds")
+pre_edge <- readRDS("data/pre_edge.rds")
 
 # --------------------------------------------------
 # Helper: plot a network using shared node positions

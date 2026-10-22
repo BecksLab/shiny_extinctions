@@ -5,6 +5,7 @@ library(igraph)
 library(cheddar)
 library(png)
 library(tidyverse)
+library(GGally)
 
 # Shared data and helper functions are loaded once when the app starts.
 source("R/11_foodweb_data.R", local = FALSE)
