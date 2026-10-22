@@ -48,3 +48,6 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+.DS_Store
+build_webs/networks.jlds
+build_webs/pfim_metaweb.jld2
